@@ -3,7 +3,7 @@ package main
 import (
 	"gnd.la/app"
 	"gnd.la/config"
-	_ "gnd.la/frontend/bootstrap"
+	_ "gnd.la/frontend/bootstrap3"
 	"gnd.la/util/pathutil"
 )
 
