@@ -1,2 +1,3 @@
 port = {{ .Port }}
 secret = {{ .AppSecret }}
+encryption-key = {{ .AppEncryptionKey }}
