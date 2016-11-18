@@ -1,3 +1,5 @@
 port = 8888
 secret = {{ .DevSecret }}
 encryption-key = {{ .DevEncryptionKey }}
+# Print emails to stdout rather than sending them
+mail-server = echo
