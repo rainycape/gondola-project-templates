@@ -12,6 +12,7 @@ var (
 )
 
 var Config struct {
+	SiteName string
 	// Include your settings here
 }
 

@@ -1,3 +1,4 @@
 port = {{ .Port }}
 secret = {{ .AppSecret }}
 encryption-key = {{ .AppEncryptionKey }}
+site-name = {{ .ProjectName }}

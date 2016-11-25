@@ -1,6 +1,7 @@
 # This is the configuration file used while running your GAE
 # application on Google's servers.
 secret = {{ .AppSecret }}
+site-name = {{ .ProjectName }}
 # Comment the following line to disable caching.
 cache = memcache://
 database = datastore://

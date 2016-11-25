@@ -1,6 +1,7 @@
 # This is the configuration file used while developing your GAE
 # application.
 secret = {{ .DevSecret }}
+site-name = {{ .ProjectName }}
 cache = memcache://
 database = datastore://
 blobstore = gce://
